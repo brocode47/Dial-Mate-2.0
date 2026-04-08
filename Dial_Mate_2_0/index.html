@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dial Mate 2.0</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          boxShadow: {
+            soft: 'var(--shadow-sm)',
+            medium: 'var(--shadow-md)',
+            large: 'var(--shadow-lg)'
+          },
+          borderRadius: {
+            sm: 'var(--radius-sm)',
+            md: 'var(--radius-md)',
+            lg: 'var(--radius-lg)'
+          },
+          transitionDuration: {
+            fast: '150ms',
+            smooth: '280ms'
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="./styles/main.css" />
+<!-- GenMB Theme START -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap">
+<style id='genmb-font-overrides'>
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif !important; }
+body, p, span, div, a, li, td, th, input, button, textarea, select { font-family: 'Outfit', sans-serif !important; }
+</style>
+<!-- GenMB Theme END -->
+</head>
+<body class="h-full bg-[hsl(var(--background))] text-[hsl(var(--foreground))] antialiased">
+  <div id="root"></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

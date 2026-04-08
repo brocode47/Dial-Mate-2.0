@@ -1,0 +1,21 @@
+{
+  "name": "dial-mate-2.0",
+  "version": "1.0.0",
+  "description": "A production-ready Urdu AI calling agent dashboard for Shopify stores with COD confirmation workflows, call analytics, billing, onboarding, and live order operations in a polished SaaS interface.",
+  "type": "module",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "tailwindcss": "^4.2.0",
+    "@tailwindcss/vite": "^4.2.0"
+  }
+}
